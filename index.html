@@ -1,42 +1,39 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh_cn" lang="zh_cn">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
-    <title>simplest_as3_rtmp_streamer</title>
+    <title>rtmp streamer example</title>
+    <script data-main="main" src="require.js"></script>
 </head>
-<body>
+<body style="text-align: center;">
+
+rtmp address:
+<input id="url" type="text" style="width: 400px;" value="rtmp://localhost:1935/live" title="url">
+<input id="stream-name" type="text" style="width: 150px;" value="myStream" title="stream-name">
+
+<h2>Streamer</h2>
 <object>
     <embed id="rtmp-streamer" src="RtmpStreamer.swf" bgcolor="#999999" quality="high"
-           width="600" height="260" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed>
+           width="320" height="240" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed>
 </object>
-
 <br>
-<input id="url" type="text" style="width: 400px;" value="rtmp://192.168.33.1:1935/live" title="url">
-<input id="stream-name" type="text" style="width: 150px;" value="myStream" title="stream-name">
-<button onclick="load()"> connect</button>
+<button id="publish"> push</button>
+<button id="streamer-disconnect"> disconnect</button>
+
+<hr>
+
+<h2>Player</h2>
+<object>
+    <embed id="rtmp-player" src="RtmpStreamer.swf" bgcolor="#999999" quality="high"
+           width="320" height="240" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed>
+</object>
+<br>
+<button id="play"> play</button>
+<button id="player-disconnect"> disconnect</button>
 
 </body>
 
 <script lang="javascript">
-    var isReady = false;
-
-    function setSWFIsReady() {
-        console.log('swf is ready!');
-        isReady = true;
-    }
-
-    function load() {
-        if (isReady) {
-            var streamer = document.getElementById('rtmp-streamer');
-            var url = document.getElementById('url').value;
-            var name = document.getElementById('stream-name').value;
-            streamer.publish(url, name);
-            streamer.playVideo(url, name);
-        } else {
-            alert('swf is not ready for now!');
-        }
-    }
 
 </script>
-
 
 </html>
