@@ -1,4 +1,11 @@
-requirejs(["rtmp-streamer"], function (RtmpStreamer) {
+
+require.config({
+    paths: {
+        "rtmp-streamer": "rtmp-streamer.min"
+    }
+});
+
+require(["rtmp-streamer"], function (RtmpStreamer) {
 
     var url = document.getElementById('url').value;
     var name = document.getElementById('stream-name').value;
