@@ -1,0 +1,22 @@
+{
+  "name": "rtmp-js-streamer",
+  "homepage": "https://github.com/chxj1992/rtmp-js-streamer",
+  "authors": [
+    "chenxiaojing <chxj1992@gmail.com>"
+  ],
+  "description": "a javascript rtmp streamer sdk by a swf plugin.",
+  "main": "rtmp-streamer.js",
+  "moduleType": [],
+  "keywords": [
+    "rtmp",
+    "streamer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
