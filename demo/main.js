@@ -1,7 +1,7 @@
 
 require.config({
     paths: {
-        "rtmp-streamer": "rtmp-streamer.min"
+        "rtmp-streamer": "../rtmp-streamer.min"
     }
 });
 
