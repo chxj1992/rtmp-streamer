@@ -1,4 +1,4 @@
-# rtmp-streamer-example
+# rtmp-js-streamer
 > 浏览器中通过内嵌swf推rtmp流的例子
  
 #### 环境
