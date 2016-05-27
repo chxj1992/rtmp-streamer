@@ -1,16 +1,20 @@
 # rtmp-streamer
+
 > 浏览器中通过内嵌swf推rtmp流的javascript库
- 
+
+
 #### Demo
 
 可在任何http容器中加载项目目录来运行demo
 
 如 [http-server](https://www.npmjs.com/package/http-server):
+
 ```bash
  $ http-server -p 8888 
 ```
 
 或 [PHP build-in web server](http://php.net/manual/en/features.commandline.webserver.php):
+
 ```bash
  $ php -S 0.0.0.0:8888 
 ```
@@ -18,6 +22,19 @@
 访问 `http://localhost:8888/demo`
 
 ![screenshot](https://github.com/chxj1992/rtmp-streamer-example/blob/master/screenshot.png)
+
+
+#### Install
+
+```
+ $ npm install rtmp-streamer
+```
+
+OR
+
+```
+ $ bower install rtmp-streamer
+```
 
 
 #### Tutorial
@@ -38,6 +55,7 @@ require(["rtmp-streamer"], function (RtmpStreamer) {
 });
 
 ```
+
 
 #### Document
 
