@@ -82,7 +82,7 @@ define('rtmp-streamer', function () {
 
 
         /**
-         *Set the camera frame interval.
+         * Set the camera frame interval.
          *
          * @param frameInterval - The number of video frames transmitted in full (called keyframes) instead of being interpolated by the video compression algorithm.
          * The allowed values are 1 through 300.
