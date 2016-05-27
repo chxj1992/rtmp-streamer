@@ -7,7 +7,7 @@
 
 如 [http-server](https://www.npmjs.com/package/http-server):
 ```bash
- $ php -S 0.0.0.0:8888 
+ $ http-server -p 8888 
 ```
 
 或 [PHP build-in web server](http://php.net/manual/en/features.commandline.webserver.php):
