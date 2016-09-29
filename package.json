@@ -1,12 +1,12 @@
 {
   "name": "rtmp-streamer",
-  "version": "v1.0.0",
-  "author": "chenxiaojing <chxj1992@gmail.com>" ,
+  "version": "1.0.1",
+  "author": "chenxiaojing <chxj1992@gmail.com>",
   "description": "a javascript rtmp streamer library.",
   "main": "rtmp-streamer.js",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/chxj1992/rtmp-streamer"
+    "type": "git",
+    "url": "https://github.com/chxj1992/rtmp-streamer"
   },
   "keywords": [
     "rtmp",
