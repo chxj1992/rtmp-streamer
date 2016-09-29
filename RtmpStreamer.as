@@ -107,6 +107,7 @@ public class RtmpStreamer extends MovieClip {
     private function connect(url:String, name:String, callback:Function):void {
         nc = new NetConnection();
         nc.addEventListener(NetStatusEvent.NET_STATUS, function (event:NetStatusEvent):void {
+            ExternalInterface.call("console.log", "try to connect to " + url);
             ExternalInterface.call("console.log", event.info.code);
             if (event.info.code == "NetConnection.Connect.Success") {
                 callback(name);
