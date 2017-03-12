@@ -21,7 +21,7 @@
 
 访问 `http://localhost:8888/demo`
 
-![screenshot](https://github.com/chxj1992/rtmp-streamer-example/blob/master/screenshot.png)
+![screenshot](http://blog.chxj.name/content/images/2016/06/screenshot.png)
 
 
 #### Install
@@ -168,4 +168,21 @@ require(["rtmp-streamer"], function (RtmpStreamer) {
 
 [Install & Configuration](https://www.wowza.com/forums/content.php?217-How-to-install-and-configure-Wowza-Streaming-Engine)
 
-![wowza](https://github.com/chxj1992/rtmp-streamer-example/blob/master/wowza.png)
+![wowza](http://blog.chxj.name/content/images/2016/06/wowza.png)
+
+
+#### 采用直播云服务
+
+以[七牛云](https://www.qiniu.com/products/pili)为例:
+
+设置参数的方式和用OBS等工具推流时的方式类似, 地址为直播云的空间名, 数据流名称为直播流的名称加鉴权参数:
+
+![](http://blog.chxj.name/content/images/2017/03/Screen-Shot-2017-03-12-at-3.16.09-PM.png)
+
+
+在七牛的直播云管理后台中预览推流视频:
+
+![](http://blog.chxj.name/content/images/2017/03/Screen-Shot-2017-03-12-at-2.01.27-PM.png)
+
+
+
