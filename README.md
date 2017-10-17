@@ -1,4 +1,6 @@
-# rtmp-streamer
+# rtmp-streamer [![npm version](https://badge.fury.io/js/rtmp-streamer.svg)](https://badge.fury.io/js/rtmp-streamer)
+
+[![NPM](https://nodei.co/npm/rtmp-streamer.png)](https://npmjs.org/package/rtmp-streamer)
 
 > 浏览器中通过内嵌swf推rtmp流的javascript库
 
