@@ -1,5 +1,9 @@
 # rtmp-streamer [![npm version](https://badge.fury.io/js/rtmp-streamer.svg)](https://badge.fury.io/js/rtmp-streamer)
 
+<a href="http://www.wtfpl.net/"><img
+       src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
+       width="80" height="15" alt="WTFPL" /></a>
+       
 [![NPM](https://nodei.co/npm/rtmp-streamer.png)](https://npmjs.org/package/rtmp-streamer)
 
 > 浏览器中通过内嵌swf推rtmp流的javascript库
